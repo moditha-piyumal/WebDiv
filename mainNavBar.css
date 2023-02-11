@@ -1,0 +1,55 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.mainNavBar {
+    position: fixed;
+    left: 20px;
+    bottom: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    background-color: rgba(24, 1, 1, 0.1);
+    color: aliceblue;
+    width: 400px;
+    margin-left: 0%;
+    margin-right: 0%;
+    border: solid #d42fd4 3px;
+}
+.mainNavBar:hover {
+    background-color: black;
+}
+
+@media (max-width: 700px) {
+    .mainNavBar {
+        grid-template-columns: 1fr;
+        background-color: darkslategray;
+    }
+}
+
+.mainNavBar a {
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+    color: aliceblue;
+    transition: 700ms;
+    border: solid #d3a6d3 2px;
+    padding: 10px;
+}
+
+.mainNavBar a:hover {
+    color: rgb(224, 16, 120);
+    border: solid #d42fd4 2px;
+}
+
+#home {
+    color: chartreuse;
+    border: solid #0dc7d1 2px;
+}
+#home:hover {
+    color: aliceblue;
+    border: solid #d42fd4 2px;
+}
