@@ -98,8 +98,20 @@ h3 {
     color: #771108;
     padding-bottom: 40px;
 }
+@media (max-width: 550px) {
+    h3 {
+        font-size: 35px;
+        color: #fff;
+    }
+}
 .smallerH3 {
     font-size: 30px;
+}
+@media (max-width: 550px) {
+    .smallerH3 {
+        font-size: 23px;
+        color: #fff;
+    }
 }
 
 /* The following is the Reports Section */
