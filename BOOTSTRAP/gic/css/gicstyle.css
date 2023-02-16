@@ -34,6 +34,9 @@ html,body {
 .homeIcon {
     padding-left: 10px;
 }
+.smallgap {
+    margin-bottom: 2px;
+}
 
 /* Cards Grid Section */
 
