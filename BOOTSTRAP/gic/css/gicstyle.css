@@ -120,6 +120,7 @@ h3 {
     text-align: center;
     line-height: 100%;
     padding-bottom: 50px;
+    padding-top: 30px;
 }
 
 /* This will design the popular Stuff Section */
@@ -169,8 +170,8 @@ a img {
 }
 
 .otherLink a img {
-    width: 100px;
-    margin: 10px;
+    width: 80px;
+    margin: 10px 5px 10px 5px;
 }
 .otherLink {
     text-align: center;
