@@ -1,0 +1,189 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 2.8rem;
+    line-height: 1.5; 
+    font-weight: 900;
+    color: #fff;
+}
+
+#title {
+    background-color: #ff4c67;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+.container-fluid {
+    padding: 3% 15% 3% 15%;
+}
+
+svg {
+    width: 20px;
+    color: aliceblue;
+}
+
+#dogphone {
+    transform: rotate(20deg);
+    height: 90%;
+    margin-top: 50px;
+    margin-left: 30px;
+    position: absolute;
+    right: 170px;
+    z-index: 0;
+}
+#firstSection {
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+    height: max-content;
+}
+.titlePart {
+    /* margin-bottom: 40px;
+    padding-bottom: 100px; */
+    background-color: #ff4c67;
+}
+
+.downBUT {
+    margin: 10px;
+}
+
+@media (max-width: 1100px) {
+
+    #title {
+        height: 160vh;
+    }
+}
+
+.navbar-brand {
+    font-size: 2.1rem;
+}
+
+.navbar {
+    margin-bottom: 40px;
+}
+
+
+.nav-item {
+    padding: 0px 17px;
+}
+
+/* Test Section */
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.0rem;
+    font-weight: 600;
+}
+
+.tick path:hover {
+    fill: #a50c35;
+}
+.target path:hover {
+    fill:#a50c35
+}
+.heart path:hover {
+    fill: #a50c35;
+}
+.tick {
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.target {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.heart {
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#features {
+    margin: 0px 0px 20px 0px;
+    padding-top: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+}
+
+#testimonials {
+    background-color: #ff4c67;
+    color: #fff;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+}
+
+.testimonial-text {
+    padding: 10px 70px 10px 70px;
+}
+
+.testimonial-image {
+    border-radius: 50%;
+    width: 20%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+em {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+
+#press {
+    background-color: #ff4c67;
+    color: #fff;
+    padding: 30px 30px 30px 30px;
+    text-align: center;
+}
+.press-logo {
+    width: 200px;
+    margin: 10px 20px 10px 20px;
+}
+
+.card {
+    text-align: center;
+    padding: 10px;
+}
+.row {
+    margin: 10px 20px 10px 20px;
+}
+#pricing {
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px 30px 20px 30px;
+}
+.planPara {
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 10px 20px 10px 20px;
+}
+
+#cta {
+    background-color: #ff4c67;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+#footer {
+    text-align: center;
+    padding: 100px 20px 100px 20px;
+    
+}

@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* This is the things Angela is teaching. Not my own work. */
+
+body {
+    background-color: #B9F3E4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.first {
+    background-color: #B9F3E4;
+    position: relative;
+}
+h1 {
+    margin: 0;
+    margin-top: 28px;
+    font-family: 'Handlee', cursive;
+    font-size: 60px;
+    color: #66BFBF;
+    line-height: 2;
+}
+h2 {
+    font-weight: bolder;
+    color: #067177;
+    font-size: 37px;
+    font-family: 'Lato', sans-serif;
+}
+h3 {
+    color: #11999E;
+}
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+a {
+    color: #11999E;
+    text-decoration: none;
+}
+
+hr {
+    border-width: 10px 0px 0px 0px;
+    border-style: dotted;
+    border-color: #EAF6F6;
+    width: 20%;
+    margin: 60px auto 60px auto;
+}
+.desc {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color: #66BFBF;
+}
+.pro {
+    text-decoration: underline;
+}
+.cloud1 {
+    position: relative;
+    left: 200px;
+    margin-top: 30px;
+}
+.cloud2 {
+    position: absolute;
+    left: 200px;
+    bottom: 260px;
+}
+
+.skills {
+    text-align: center;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skimg1 {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.skimg2 {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.bottom-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.contact-me {
+    line-height: 2;
+}
+
+.btn {
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    color: #B9F3E4;
+    background-image: -webkit-linear-gradient(#66BFBF, #11999E);
+    border-radius: 24%;
+    font-weight: 600;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    margin-bottom: 0;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.bottom-container a {
+    color: #067177;
+    font-size: 20px;
+}
+.bottom-container p {
+    color: #EAF6F6;
+    margin-top: 40px;
+}
+
+.footer-link {
+    margin: 10px 20px 10px 20px;
+}
+.footer-link:hover {
+    color: #EAF6F6;
+}
+
+
+/* This is the Navigation to other CSS pages. */
+
+.mainNavBar {
+    position: fixed;
+    left: 20px;
+    bottom: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    background-color: rgba(24, 1, 1, 0.1);
+    color: aliceblue;
+    width: 400px;
+    margin-left: 0%;
+    margin-right: 0%;
+    border: solid #d42fd4 3px;
+}
+.mainNavBar:hover {
+    background-color: black;
+}
+
+@media (max-width: 700px) {
+    .mainNavBar {
+        grid-template-columns: 1fr;
+        background-color: darkslategray;
+    }
+}
+
+.mainNavBar a {
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+    color: aliceblue;
+    transition: 700ms;
+    border: solid #d3a6d3 2px;
+    padding: 10px;
+}
+
+.mainNavBar a:hover {
+    color: rgb(224, 16, 120);
+    border: solid #d42fd4 2px;
+}
+
+#home {
+    color: chartreuse;
+    border: solid #0dc7d1 2px;
+}
+#home:hover {
+    color: aliceblue;
+    border: solid #d42fd4 2px;
+}
