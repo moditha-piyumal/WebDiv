@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traversy Helped</title>
+
+    <link rel="stylesheet" href="cssExtra2.css">
+</head>
+
+
+<body>
+    <section class="showcase">
+        <header class="headpart">
+            <h2 class="logo">Awidimu</h2>
+            <div class="toggle"></div>
+        </header>
+
+        <video src="imgs3/lake.mp4" muted loop autoplay></video>
+
+        <div class="overlay"></div>
+
+        <div class="topic">
+            <h2>Never Stop</h2>
+            <h2>Exploring the Country</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ad quae quos? Ab veniam aspernatur commodi.</p>
+            <a href="indexCSS.html">Angela's Page</a>
+        </div>
+
+        <ul class="social">
+            <li><img src="imgs3/facebook.png" alt="socialicon1"></li>
+            <li><img src="imgs3/linkedin.png" alt="socialicon2"></li>
+            <li><img src="imgs3/twitter.png" alt="socialicon3"></li>
+        </ul>
+    </section>
+
+
+    <div class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Packages</a></li>
+            <li><a href="#">Hotels</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
+
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>
+    
+</body>
+</html>

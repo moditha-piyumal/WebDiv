@@ -1,0 +1,278 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+/* NAVIGATION MENU */
+
+.navigator {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 5px;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    background-color: #FF0063;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+.naviLink {
+    border: solid 1px #FFFFFF;
+    padding: 5px 10px 5px 10px;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: 1s;
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+}
+.naviLink:hover {
+    color: #FF0063;
+    background-color: #FFFFFF;
+}
+.logo {
+    font-family: 'Caveat', cursive;
+    font-size: 27px;
+    font-weight: 700;
+}
+@media (max-width: 600px) {
+    .navigator {
+        grid-template-columns: 1fr 1fr 1fr;
+        position: static;
+        background-color: #FF0063;
+    }
+    .logo {
+        grid-column: span 3;
+    }
+}
+
+
+
+
+
+
+/* PHOTO SLIDER */
+
+.pictureSlider {
+    position: absolute;
+    top: -100px;
+    /* z-index: -1; */
+}
+@media (max-width: 900px) {
+    .pictureSlider {
+        position: static;
+    }
+}
+
+
+/* MAIN */
+
+.mainGrid {
+    padding-top: 120vh;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: grid;
+    gap: 10px;
+    background-color: #FFFFFF;
+    grid-template-areas: 
+    "wel wel wel"
+    "his evo cal"
+    "got byl anc"
+    "mea gui lat"
+    "non kin lat"
+    "mor new run"
+    ;
+}
+@media (max-width: 1200px) {
+    .mainGrid {
+        padding-top: 110vh;
+    }
+}
+@media (max-width: 1100px) {
+    .mainGrid {
+        padding-top: 100vh;
+    }
+} 
+@media (max-width: 950px) {
+    .mainGrid {
+        padding-top: 80vh;
+    }
+}
+@media (max-width: 900px) {
+    .mainGrid {
+        padding-top: 5vh;
+        grid-template-areas: 
+        "wel wel wel"
+        "his evo cal"
+        "got byl anc"
+        "lat new run"
+        "lat new run"
+        "lat gui kin"
+        "mea non mor"
+        ;
+    }
+}
+@media (max-width: 600px) {
+    .mainGrid {
+        padding-top: 5vh;
+        grid-template-areas:
+        "wel wel wel"
+        "his his his"
+        "evo evo evo"
+        "cal cal cal"
+        "got got got"
+        "byl byl anc"
+        "byl byl anc"
+        "lat lat lat"
+        "new new new"
+        "run run run"
+        "gui gui gui"
+        "kin kin kin"
+        "mea non non"
+        "mea non non"
+        "mor mor mor"
+        ;
+    }
+}
+
+.welcome {
+    grid-area: wel;
+}
+.history {
+    grid-area: his;
+}
+.evolve {
+    grid-area: evo;
+}
+.calendar {
+    grid-area: cal;
+}
+.gothar {
+    grid-area: got;
+}
+.bylaws {
+    grid-area: byl;
+}
+.ancestors {
+    grid-area: anc;
+}
+.mead {
+    grid-area: mea;
+}
+.guilds {
+    grid-area: gui;
+}
+.latest {
+    grid-area: lat;
+}
+.nonProfit {
+    grid-area: non
+}
+.kindred {
+    grid-area: kin;
+}
+.moreInfo {
+    grid-area: mor;
+}
+.moreInfo p {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+}
+.news {
+    grid-area: new;
+}
+.runes {
+    grid-area: run;
+}
+
+.gridBox {
+    min-height: 20vh;
+    background-color: #b0ccd4;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Antic', sans-serif;
+    border-radius: 15px;
+}
+.gridBox h1, h2 {
+    font-weight: 700;
+}
+.gridBox p {
+    font-size: 18px;
+}
+
+
+
+
+/* FOOT */
+
+.copy {
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+/* My Project Links */
+
+.mainNavBar {
+    position: fixed;
+    left: 20px;
+    bottom: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2px;
+    padding: 5px;
+    background-color: rgba(24, 1, 1, 0.1);
+    color: aliceblue;
+    width: 40vw;
+    margin-left: 0%;
+    margin-right: 0%;
+    border: solid #d42fd4 1px;
+}
+.mainNavBar:hover {
+    background-color: black;
+}
+
+@media (max-width: 700px) {
+    .mainNavBar {
+        grid-template-columns: 1fr;
+        background-color: rgba(24, 1, 1, 0.1);
+        width: 30vw;
+    }
+}
+
+.mainNavBar a {
+    text-align: center;
+    font-size: 13px;
+    text-decoration: none;
+    color: aliceblue;
+    transition: 700ms;
+    border: solid #e710e7 1px;
+    padding: 4px;
+}
+
+.mainNavBar a:hover {
+    color: rgb(224, 16, 120);
+    border: solid #f5dcf5 1px;
+}
+
+#home {
+    color: chartreuse;
+    border: solid #0dc7d1 1px;
+}
+#home:hover {
+    color: aliceblue;
+    border: solid #d42fd4 1px;
+}
