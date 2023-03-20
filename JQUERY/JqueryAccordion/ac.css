@@ -11,7 +11,9 @@ body {
 
 /* Colors = #FAFAFA #E0BB20 #841818 black */
 
-
+.logo {
+  font-family: cursive;
+}
 
 /* Navigation */
 
@@ -99,6 +101,13 @@ header {
      margin-right: 0;
      margin-bottom: 10px;
    }
+
+   nav ul li a {
+    color: #333333;
+   }
+   nav ul li a:hover {
+    color: #841818;
+   }
  
    .hamburger {
      display: block;
@@ -141,10 +150,20 @@ header {
    grid-template-columns: 1fr 1fr;
    gap: 3px;
 }
+@media (max-width: 700px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
 
 .accordionMain {
    overflow: hidden;
    border: solid #841818 2px;
+}
+@media (max-width: 700px) {
+  .accordionMain {
+    border: solid #FAFAFA 1px;
+  }
 }
 
 .acTitle {
@@ -169,7 +188,35 @@ header {
 
 
 
+/* FOOTER */
 
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: #FAFAFA;
+  background-color: #333333;
+  font-size: 13px;
+  text-align: center;
+}
+@media (max-width: 1000px) {
+  footer {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 600px) {
+  footer {
+    grid-template-columns: 1fr;
+  }
+}
+
+footer a {
+  color: #FAFAFA;
+  text-decoration: none;
+  padding: 20px;
+}
+footer a:hover {
+  color: #E0BB20;
+}
 
 
 

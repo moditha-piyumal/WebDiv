@@ -166,6 +166,10 @@ h2 {
     background-color: rgba(29, 192, 168, 0.9);
     color: rgb(5, 22, 31);
 }
+.lessonX:hover {
+    background-color: rgba(222, 236, 21, 0.8);
+    color: rgb(33, 7, 104);
+}
 
 
 
