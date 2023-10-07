@@ -5,6 +5,29 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.restart1 h1 {
+    font-size: 40px;
+    color: yellowgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed;
+    left: 200px;
+    top: 100px;
+    background-color: darkmagenta;
+    padding: 40px;
+    z-index: 22;
+}
+.restart2 h1 {
+    font-size: 60px;
+    color: yellowgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed;
+    left: 300px;
+    top: 400px;
+    z-index: 33;
+    padding: 40px;
+    background-color: crimson;
+}
+
 /* This is the Nav Bar */
 nav {
     background-color: black;
